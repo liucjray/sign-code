@@ -1,0 +1,26 @@
+{
+    "name": "chaoyenpo/sign-code",
+    "description": "Sign code.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fish",
+            "email": "chao.yen.po@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaoyenpo\\SignCode\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
